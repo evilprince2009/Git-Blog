@@ -9,7 +9,7 @@ var path_1 = __importDefault(require("path"));
 var Blog = require("./models/blog");
 // Use your OWN credentials here
 var port = 5700; // Your custom port
-var connectionString = "mongodb+srv://nahian:619961@express-app.eljla.mongodb.net/express-app?retryWrites=true&w=majority"; // Your MongoDB Atlas connection string
+var connectionString = "mongodb+srv://username:password@express-app.eljla.mongodb.net/express-app?retryWrites=true&w=majority"; // Your MongoDB Atlas connection string
 var app = express_1.default();
 mongoose_1.default
     .connect(connectionString, {
