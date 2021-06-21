@@ -6,7 +6,7 @@ const Blog = require("./models/blog");
 // Use your OWN credentials here
 const port: number = 5700; // Your custom port
 const connectionString: string =
-  "mongodb+srv://nahian:619961@express-app.eljla.mongodb.net/express-app?retryWrites=true&w=majority"; // Your MongoDB Atlas connection string
+  "mongodb+srv://username:password@express-app.eljla.mongodb.net/express-app?retryWrites=true&w=majority"; // Your MongoDB Atlas connection string
 
 const app = express();
 mongoose
